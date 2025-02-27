@@ -1,12 +1,13 @@
 @import "tailwindcss";
 
+
 @theme {
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
 
 :root {
-  --background: #ffffff;
+  --background: #ffffffe7;
   --foreground: #171717;
 }
 
@@ -21,4 +22,49 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+  background-color: #fae3e3e3;
+}
+
+h1{
+  font-size: 80px;
+  font-weight: 900;
+text-align: center;}
+
+
+button {
+  background-color: grey; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+input[type=text] {
+  padding: 12px 20px;
+  margin: 8px ;
+  box-sizing: border-box;
+  border: 3px solid #555;
+
+}
+
+ul {
+  list-style-type: none; /* Remove default list bullets */
+  padding: 0; /* Remove default padding */
+}
+
+li {
+  background-color: black; /* Set black background */
+  color: white; /* Set text color to white for contrast */
+  padding: 10px; /* Add padding inside the list item */
+  margin-bottom: 5px; /* Add separation between list items */
+  border-radius: 4px; /* Optional: Add rounded corners */
+  cursor: pointer; /* Change cursor to pointer when hovering */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+  text-align: center;
+}
+
+li:hover {
+  background-color: #333; /* Darker background when hovering */
 }
