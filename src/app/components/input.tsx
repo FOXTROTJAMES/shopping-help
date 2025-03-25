@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { getRow, insertRow } from "../../../db/dbquery";
+import { getRow, insertRow } from "./dbquery";
 
 interface Item {
   id: number;

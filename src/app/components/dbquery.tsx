@@ -1,5 +1,5 @@
-import { db } from ".";
-import { Table } from "./schema";
+import { db } from "../../../db";
+import { Table } from "../../../db/schema";
 import { eq } from "drizzle-orm";
 
 export async function getRow(item: string) {
