@@ -28,6 +28,15 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
+        <footer className="bg-black fixed bottom-0 text-white w-full p-4 text-center">
+          <h2 className="text-lg font-semibold">Features Coming Soon</h2>
+          <ul className="mt-2 space-y-1">
+            <li>- Right/long click to add the isle</li>
+            <li>Option to change the isle</li>
+            <li>- Pick your favorite supermarket</li>
+            <li>- Mobile native version. </li>
+          </ul>
+        </footer>
       </body>
     </html>
   );
